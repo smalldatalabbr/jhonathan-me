@@ -117,7 +117,14 @@ export const projectsContent = {
       href: "/cases/delayimpact/",
       stack: ["Python", "SQL", "EDA", "Análise Estatística", "Comunicação de Dados", "Visualização de Dados"],
     },
-
+    {
+      title: "DocLens",
+      description:
+        "Chatbot RAG baseado em documentos, com controle de escopo, rastreabilidade e mitigação de riscos.",
+      image: "/assets/images/cases/doclens.png",
+      href: "/cases/doclens/",
+      stack: ["Python", "RAG", "Streamlit", "LLMs via API", "Responsible AI", "Governança de Informação"],
+    },
       ],
 };
 
