@@ -29,4 +29,7 @@ resultHighlights:
 
 resultImage: "/assets/images/cases/fraudwatch-results.png"
 resultImageAlt: "Fluxo de decisão baseado em score de risco e políticas operacionais"
+
+links:
+  github: "https://github.com/smalldatalabbr/fraudwatch"
 ---
