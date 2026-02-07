@@ -118,6 +118,14 @@ export const projectsContent = {
       stack: ["Python", "SQL", "EDA", "Análise Estatística", "Comunicação de Dados", "Visualização de Dados"],
     },
     {
+      title: "FraudWatch",
+      description:
+        "Sistema de risk scoring e decisão baseado em Machine Learning, com foco em governança, avaliação temporal e suporte estruturado à decisão.",
+      image: "/assets/images/cases/fraudwatch.png",
+      href: "/cases/fraudwatch/",
+      stack: ["Python", "Applied Machine Learning", "LightGBM", "SHAP", "Decision Modeling"]
+    },    
+    {
       title: "DocLens",
       description:
         "Chatbot RAG baseado em documentos, com controle de escopo, rastreabilidade e mitigação de riscos.",
@@ -125,6 +133,8 @@ export const projectsContent = {
       href: "/cases/doclens/",
       stack: ["Python", "RAG", "Streamlit", "LLMs via API", "Responsible AI", "Governança de Informação"],
     },
+
+        
       ],
 };
 
