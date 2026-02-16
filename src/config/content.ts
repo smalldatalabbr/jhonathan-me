@@ -13,7 +13,7 @@ export const siteConfig = {
 export const homeContent = {
   title: "Olá, sou Jhonathan Domingues",
   description:
-    "Atuo com dados, Analytics, Machine Learning e GenAI para resolver problemas reais de negócio. Aqui você encontra provas de conceito e cases práticos desenvolvidos para resolver problemas reais com dados.",
+    "Atuo com Analytics, Machine Learning e GenAI na construção de soluções orientadas a problemas reais de negócio. Aqui você encontra provas de conceito e cases práticos, desenvolvidos para transformar dados em decisões.",
   buttons: {
     about: {
       text: "Sobre",
@@ -37,8 +37,8 @@ export const aboutContent = {
   },
   title: "Quem sou eu",
   description:`Sou Jhonathan Domingues, profissional de dados com foco em análise, machine learning e construção de soluções orientadas a problemas reais de negócio. Sou formado em Análise e Desenvolvimento de Sistemas e pós-graduado em Ciência de Dados e Big Data.\n
-Trago mais de 15 anos de experiência em engenharia industrial, atuando com análise técnica, automação de processos, elaboração de relatórios e suporte à tomada de decisão em ambientes industriais complexos. Essa vivência consolidou minha visão analítica e direcionou minha atuação para o uso estratégico de dados.\n
-Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pessoal onde aplico estatística, machine learning e engenharia analítica para resolver desafios práticos, documentando soluções de ponta a ponta, da exploração dos dados à comunicação de resultados.`,
+Trago mais de 15 anos de experiência em engenharia industrial, atuando em ambientes complexos com análise técnica, automação de processos, elaboração de relatórios e suporte à tomada de decisão. Essa vivência consolidou uma base analítica sólida e influenciou diretamente minha forma atual de estruturar e utilizar dados de maneira estratégica.\n
+Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pessoal de experimentação aplicada, onde estruturo problemas de negócio, organizo dados em camadas analíticas e desenvolvo soluções de ponta a ponta, da curadoria e análise exploratória à comunicação de insights para apoio à decisão.`,
   skills: [
     "Python",
     "SQL",
@@ -70,7 +70,7 @@ Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pes
         period: "06/2025 – atual",
         position: "Cientista de Dados",
         company: "Small Data Lab",
-        description: `Desenvolvimento de provas de conceito (POCs) em Ciência de Dados de ponta a ponta, com foco em problemas reais de negócio.\nEDA, tratamento de dados, construção de pipelines analíticos e modelagem com Python, SQL e Git/GitHub.\nAplicação de estatística e machine learning supervisionado para gerar insights, com visualizações e comunicação orientada a negócio.`,
+        description: `Atuação em laboratório de experimentação aplicada, desenvolvendo provas de conceito orientadas a problemas reais de negócio. Estruturação de soluções analíticas end-to-end, com organização de dados em camadas, curadoria em SQL, análises exploratórias guiadas e modelagem analítica para consumo por BI e decisão. Foco em clareza analítica, rastreabilidade e comunicação de resultados, simulando contextos reais de uso de dados em ambientes profissionais.`,
       },
     ],
   },
@@ -124,6 +124,14 @@ export const projectsContent = {
       image: "/assets/images/cases/fraudwatch.png",
       href: "/cases/fraudwatch/",
       stack: ["Python", "Applied Machine Learning", "LightGBM", "SHAP", "Decision Modeling"]
+    },
+    {
+      title: "CampaignSense",
+      description:
+        "Solução de CRM Analytics para otimização de campanhas de marketing, focada em priorização de clientes e maximização de retorno financeiro.",
+      image: "/assets/images/cases/campaignsense.png",
+      href: "/cases/campaignsense/",
+      stack: ["Python", "CRM Analytics", "Profit Targeting", "Applied Machine Learning", "Decision Modeling", ]
     },    
     {
       title: "DocLens",
