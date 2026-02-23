@@ -141,7 +141,14 @@ export const projectsContent = {
       href: "/cases/doclens/",
       stack: ["Python", "RAG", "Streamlit", "LLMs via API", "Responsible AI", "Governança de Informação"],
     },
-
+    {
+      title: "LakeFlow",
+      description:
+        "Pipeline de dados para ingestão, organização e disponibilização de dados externos, com foco em rastreabilidade, qualidade e reutilização.",
+      image: "/assets/images/cases/lakeflow.png",
+      href: "/cases/lakeflow/",
+      stack: ["Python","SQL", "Apache Spark", "Apache Airflow", "Data Engineering"],
+    },
         
       ],
 };
