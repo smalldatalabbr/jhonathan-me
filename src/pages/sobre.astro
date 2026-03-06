@@ -64,7 +64,6 @@ import { aboutContent } from "../config/content.ts";
 
   <body class="min-h-screen flex flex-col bg-white dark:bg-black transition-colors duration-300">
     <div class="relative flex-grow flex flex-col">
-
       <!-- Grid (sem degradê / sem glow extra) -->
       <div class="absolute inset-0 pointer-events-none">
         <div class="absolute inset-0 dot-hexagon-light dark:dot-hexagon-dark"></div>
@@ -81,14 +80,18 @@ import { aboutContent } from "../config/content.ts";
           <div class="flex flex-col md:flex-row gap-8 mt-3 sm:mt-4 lg:mt-6">
             <!-- Coluna esquerda -->
             <div class="w-full md:w-[55%] flex flex-col">
-              <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg whitespace-pre-line">
-                {aboutContent.description}
-              </p>
+              <p
+                class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg whitespace-pre-line"
+                set:html={aboutContent.description}
+              />
 
               <div class="mt-auto pt-4 flex flex-wrap gap-2">
                 {
                   aboutContent.skills.map((skill) => (
-                    <span class="px-3 py-1 text-sm bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-200 rounded-full">
+                    <span class="px-3 py-1 text-xs rounded-full border backdrop-blur-sm
+                                 bg-blue-50/70 dark:bg-blue-950/25
+                                 text-blue-700 dark:text-blue-200
+                                 border-blue-200/60 dark:border-blue-900/35">
                       {skill}
                     </span>
                   ))
@@ -131,7 +134,6 @@ import { aboutContent } from "../config/content.ts";
                     }
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -176,9 +178,10 @@ import { aboutContent } from "../config/content.ts";
                         {item.company}
                       </p>
 
-                      <p class="text-sm font-light text-neutral-600 dark:text-neutral-400 whitespace-pre-line">
-                        {item.description}
-                      </p>
+                      <p
+                        class="text-sm font-light text-neutral-600 dark:text-neutral-400 whitespace-pre-line"
+                        set:html={item.description}
+                      />
                     </div>
                   </div>
                 ))
@@ -194,14 +197,18 @@ import { aboutContent } from "../config/content.ts";
 
             <div class="py-[30px]">
               <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
-                {aboutContent.connect.description}
-                {" "}
-                <a href={aboutContent.connect.linkedin.href} class="underline text-neutral-900 dark:text-neutral-100 hover:opacity-80">
+                {aboutContent.connect.description}{" "}
+                <a
+                  href={aboutContent.connect.linkedin.href}
+                  class="underline text-neutral-900 dark:text-neutral-100 hover:opacity-80"
+                >
                   {aboutContent.connect.linkedin.text}
-                </a>
-                {" "}
-                ou enviar um{" "}
-                <a href={aboutContent.connect.email.href} class="underline text-neutral-900 dark:text-neutral-100 hover:opacity-80">
+                </a>{" "}
+                ou envie um {" "}
+                <a
+                  href={aboutContent.connect.email.href}
+                  class="underline text-neutral-900 dark:text-neutral-100 hover:opacity-80"
+                >
                   {aboutContent.connect.email.text}
                 </a>
                 .

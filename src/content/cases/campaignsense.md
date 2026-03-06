@@ -1,9 +1,9 @@
 ---
 slug: "campaignsense"
 title: "CampaignSense"
-description: "Solução de CRM Analytics para otimização de campanhas de marketing, focada em priorização de clientes e maximização de retorno financeiro."
+description: "Priorização de clientes para campanhas baseada em propensão de resposta e retorno financeiro"
 heroImage: "/assets/images/cases/campaignsense.png"
-stack: ["Python", "CRM Analytics", "Applied Machine Learning", "Decision Modeling", "Profit Targeting"]
+stack: ["Python", "Machine Learning", "CRM Analytics", "Customer Segmentation", "Decision Strategy"]
 
 context: |
   Campanhas de marketing são amplamente utilizadas por empresas orientadas a dados para ativar clientes, aumentar conversão e sustentar crescimento. No entanto, em muitos cenários, essas campanhas ainda são executadas de forma pouco seletiva, impactando grandes parcelas da base sem distinção clara de potencial de retorno.

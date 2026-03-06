@@ -1,9 +1,9 @@
 ---
 slug: "doclens"
 title: "DocLens"
-description: "Chatbot RAG baseado em documentos, com controle de escopo, rastreabilidade e mitigação de riscos."
+description: "Chatbot RAG com guardrails e auditoria adversarial para controle seguro de sistemas baseados em LLM"
 heroImage: "/assets/images/cases/doclens.png"
-stack: ["Python", "RAG", "Streamlit", "LLMs via API", "Responsible AI", "Governança de Informação"]
+stack: ["Python", "RAG", "LLMs", "AI Guardrails", "Adversarial Testing"]
 
 context: |
   Com a popularização dos chatbots baseados em Inteligência Artificial, esse tipo de sistema passou a ser amplamente utilizado para consulta de documentos, políticas internas, manuais operacionais e bases de conhecimento corporativas. Em especial, soluções baseadas em Retrieval-Augmented Generation (RAG) ganharam espaço por permitirem que respostas sejam geradas a partir de conteúdos específicos e controlados.

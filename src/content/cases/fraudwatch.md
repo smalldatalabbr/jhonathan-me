@@ -1,9 +1,9 @@
 ---
 slug: "fraudwatch"
 title: "FraudWatch"
-description: "Sistema de risk scoring e decisão baseado em Machine Learning, com foco em governança, avaliação temporal e suporte estruturado à decisão."
+description: "Risk scoring e políticas de decisão para detecção de fraude"
 heroImage: "/assets/images/cases/fraudwatch.png"
-stack: ["Python", "Applied Machine Learning", "LightGBM", "SHAP", "Decision Modeling"]
+stack: ["Python", "Machine Learning", "LightGBM", "SHAP", "Risk Scoring"]
 
 context: |
   Sistemas antifraude e de prevenção à lavagem de dinheiro (PLD) são amplamente utilizados em ambientes financeiros para mitigar riscos operacionais, regulatórios e reputacionais. Com o aumento do volume transacional, modelos de Machine Learning tornaram-se componentes centrais desses sistemas.

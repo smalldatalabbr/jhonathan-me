@@ -1,14 +1,14 @@
 ---
 slug: "retaillens-bi"
 title: "RetailLens BI"
-description: "Analytics executivo para tomada de decisão em e-commerce, com foco em performance logística e financeira."
+description: "Camada analítica BI-ready para diagnóstico operacional e tomada de decisão em e-commerce"
 heroImage: "/assets/images/cases/retaillens-bi.png"
-stack: ["SQL", "Modelagem de Dados", "Power BI", "Business Analytics"]
+stack: ["SQL", "Data Modeling", "Power BI", "Business Analytics"]
 
 context: |
   Operações de e-commerce geram grandes volumes de dados relacionados a vendas, entregas e pagamentos. 
   Apesar disso, é comum que a tomada de decisão seja feita com base em relatórios fragmentados, métricas pouco padronizadas ou análises que misturam exploração técnica com comunicação de negócio.
-  Esta POC simula um cenário real de e-commerce com o objetivo de transformar dados brutos em informações claras, organizadas e úteis para acompanhamento de performance e apoio à decisão executiva.
+  Esta prova de conceito (PoC) simula um cenário real de e-commerce com o objetivo de transformar dados brutos em informações claras, organizadas e úteis para acompanhamento de performance e apoio à decisão executiva.
 
 challenge: |
   O principal desafio foi consolidar dados operacionais, logísticos e financeiros em uma base única econfiável, garantindo consistência entre métricas e evitando retrabalho analítico.

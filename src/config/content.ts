@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Jhonathan Domingues",
-  title: "Jhonathan Domingues | Cientista de Dados (Analytics, ML e GenAI)",
+  title: "Jhonathan Domingues | Analytics, Machine Learning & AI Systems",
   description:
-    "Portfólio de Jhonathan Domingues: cases e POCs em Ciência de Dados, Machine Learning e IA Generativa aplicadas a problemas reais.",
+    "Portfólio de Jhonathan Domingues com projetos de Data Science, Analytics Engineering e AI Systems aplicados a problemas reais de negócio.",
   social: {
     github: "https://github.com/smalldatalabbr",
     linkedin: "https://www.linkedin.com/in/jhonathandomingues/",
@@ -11,17 +11,18 @@ export const siteConfig = {
 };
 
 export const homeContent = {
-  title: "Olá, sou Jhonathan Domingues",
-  description:
-    "Atuo com Analytics, Machine Learning e GenAI na construção de soluções orientadas a problemas reais de negócio. Aqui você encontra provas de conceito e cases práticos, desenvolvidos para transformar dados em decisões.",
+  title: "Olá, sou Jhonathan Domingues.",
+   description:`Trabalho com dados, sistemas analíticos e modelos de machine learning aplicados a problemas reais de negócio.\n
+Aqui você encontra provas de conceito (PoCs) e sistemas analíticos desenvolvidos no <strong>Small Data Lab</strong>. Os projetos exploram diferentes camadas do trabalho com dados, desde engenharia de pipelines e modelagem preditiva até aplicações de IA baseadas em documentos.`,
+ 
   buttons: {
-    about: {
-      text: "Sobre",
-      href: "/sobre/",
-    },
     cases: {
-      text: "Cases",
+      text: "Ver projetos",
       href: "/cases/",
+    },
+    about: {
+      text: "Sobre o autor",
+      href: "/sobre/",
     },
   },
   images: {
@@ -33,24 +34,23 @@ export const homeContent = {
 export const aboutContent = {
   meta: {
     title: "Sobre | Jhonathan Domingues",
-    description: "Conheça minha trajetória, habilidades e formação em Ciência de Dados, Machine Learning e Analytics.",
+    description: "Trajetória, experiência e competências em Data Science, Analytics e Machine Learning.",
   },
   title: "Quem sou eu",
-  description:`Sou Jhonathan Domingues, profissional de dados com foco em análise, machine learning e construção de soluções orientadas a problemas reais de negócio. Sou formado em Análise e Desenvolvimento de Sistemas e pós-graduado em Ciência de Dados e Big Data.\n
-Trago mais de 15 anos de experiência em engenharia industrial, atuando em ambientes complexos com análise técnica, automação de processos, elaboração de relatórios e suporte à tomada de decisão. Essa vivência consolidou uma base analítica sólida e influenciou diretamente minha forma atual de estruturar e utilizar dados de maneira estratégica.\n
-Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pessoal de experimentação aplicada, onde estruturo problemas de negócio, organizo dados em camadas analíticas e desenvolvo soluções de ponta a ponta, da curadoria e análise exploratória à comunicação de insights para apoio à decisão.`,
+description:`Sou Jhonathan Domingues. Trabalho com dados, sistemas analíticos e machine learning aplicados a problemas reais de negócio.\n
+Minha atuação combina análise exploratória, estatística aplicada e modelagem preditiva com foco em clareza analítica, rastreabilidade e suporte à tomada de decisão.\n
+Antes de migrar para a área de dados, construí uma trajetória de mais de 15 anos em engenharia industrial, atuando em ambientes operacionais complexos com análise técnica, automação de processos e otimização de operações. Essa experiência consolidou uma base analítica sólida e influenciou diretamente minha forma atual de estruturar problemas, organizar dados e transformar análise em decisão.\n
+    Atualmente, concentro minha experimentação técnica no Small Data Lab, um laboratório independente. Neste ambiente, desenvolvo provas de conceito (PoCs) de ponta a ponta: traduzo dores de negócio em arquiteturas analíticas, estruturo os dados e construo os modelos que sustentam a decisão final.`,
   skills: [
     "Python",
     "SQL",
-    "Estatística Aplicada",
+    "PySpark",
+    "Apache Airflow",
     "Machine Learning",
-    "Análise de Dados",
+    "Estatística Aplicada",
+    "Data Pipelines",
     "Modelagem de Dados",
-    "Git/GitHub",
     "Visualização de Dados",
-    "GenAI & LLM",
-    
-
   ],
 
   image: { src: "/assets/images/about/jhonathan.png", alt: "Foto de perfil" },
@@ -70,7 +70,9 @@ Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pes
         period: "06/2025 – atual",
         position: "Cientista de Dados",
         company: "Small Data Lab",
-        description: `Atuação em laboratório de experimentação aplicada, desenvolvendo provas de conceito orientadas a problemas reais de negócio. Estruturação de soluções analíticas end-to-end, com organização de dados em camadas, curadoria em SQL, análises exploratórias guiadas e modelagem analítica para consumo por BI e decisão. Foco em clareza analítica, rastreabilidade e comunicação de resultados, simulando contextos reais de uso de dados em ambientes profissionais.`,
+        description: `Atuação em laboratório técnico independente voltado à experimentação aplicada em dados e machine learning.\n
+Desenvolvo provas de conceito (PoCs) end-to-end que resolvem problemas reais de negócio. O escopo do meu trabalho abrange desde a curadoria e organização de dados em camadas analíticas até a modelagem preditiva e a comunicação dos resultados.\n
+Cada projeto é desenhado para simular o rigor de um ambiente corporativo, com foco absoluto em clareza analítica, rastreabilidade técnica e suporte estratégico à tomada de decisão.`,
       },
     ],
   },
@@ -78,78 +80,120 @@ Atualmente, desenvolvo provas de conceito no Small Data Lab, um laboratório pes
   connect: {
     title: "Vamos nos conectar",
     description:
-      "Fique à vontade para entrar em contato para colaborações, troca de ideias ou oportunidades profissionais. Você pode me encontrar no",
+      "Para conversar sobre dados, projetos ou oportunidades profissionais, fico à disposição. Entre em contato via",
     linkedin: {
       text: "LinkedIn",
-      href: "https://www.linkedin.com/in/jhonathandomingues/",
+      href: "https://www.linkedin.com/in/jhonathandomingues",
     },
     email: {
       text: "e-mail",
       href: "mailto:hello@jhonathan.me",
     },
-  },
+},
 };
 
 export const projectsContent = {
   meta: {
     title: "Cases | Jhonathan Domingues",
     description:
-      "Hub de POCs e cases técnicos do Small Data Lab: análise, modelagem, machine learning e resultados.",
+      "Projetos de Data Science, Analytics Engineering e AI Systems desenvolvidos no Small Data Lab."
   },
   title: "Cases",
-  description: `Este espaço reúne as provas de conceito (POCs) desenvolvidas no contexto do projeto Small Data Lab. Aqui são apresentados cases técnicos voltados à resolução de problemas reais com dados, envolvendo análise exploratória, tratamento e modelagem de dados, aplicação de machine learning e comunicação de resultados.
-  Esta página funciona como um hub do portfólio, conectando cada POC a seus respectivos repositórios, notebooks e entregáveis técnicos.`,
-  
+  description: `Cada projeto deste portfólio foi desenvolvido no contexto do <strong>Small Data Lab</strong> e explora um problema real de negócio por meio de dados.
+Os projetos exploram diferentes camadas de sistemas analíticos, desde infraestrutura de dados e engenharia analítica até modelagem preditiva e aplicações de IA.
+
+Alguns focam em modelos e sistemas de decisão.
+Outros mostram como estruturar dados e pipelines confiáveis para análise.
+Há também experimentos com sistemas de IA baseados em documentos e recuperação de conhecimento.
+
+Se preferir, você pode começar pela trilha que mais se aproxima do seu interesse.`,
+
+  tracks: [
+    {
+      key: "data-science",
+      label: "Data Science",
+      description:
+        "Modelos preditivos e sistemas de decisão aplicados a problemas reais de negócio.",
+      anchor: "data-science",
+    },
+    {
+      key: "analytics-engineer",
+      label: "Data & Analytics Engineering",
+      description:
+        "Pipelines e camadas analíticas para estruturar dados, gerar métricas confiáveis e apoiar decisões.",
+      anchor: "analytics-engineer",
+    },
+    {
+      key: "ai-systems",
+      label: "AI Systems",
+      description:
+        "Aplicações de IA com LLMs e documentos, com foco em controle e confiabilidade.",
+      anchor: "ai-systems",
+    },
+  ] as const,
+
   projects: [
     {
-      title: "RetailLens BI",
+      title: "LakeFlow",
+      impact: "Arquitetura de pipeline analítico com camadas Bronze/Silver/Gold para ingestão e organização de dados externos.",
       description:
-        "Analytics executivo para tomada de decisão em e-commerce, com foco em performance logística e financeira.",
+        "Pipeline analítico desenvolvido em Python e PySpark para ingestão recorrente, transformação e organização de dados em camadas analíticas, com orquestração via Airflow e foco em rastreabilidade, qualidade e reutilização.",
+      image: "/assets/images/cases/lakeflow.png",
+      href: "/cases/lakeflow/",
+    stack: ["Python", "PySpark", "Apache Airflow", "Data Pipelines"],
+      track: "analytics-engineer",
+    },
+    {
+      title: "RetailLens BI",
+      impact: "Camada analítica BI-ready para diagnóstico operacional e tomada de decisão em e-commerce.",
+      description:
+        "Produto analítico para e-commerce baseado em modelagem de dados em SQL e dashboards executivos em Power BI, com métricas consolidadas em uma camada analítica BI-ready voltada à consistência de indicadores e suporte à tomada de decisão.",
       image: "/assets/images/cases/retaillens-bi.png",
       href: "/cases/retaillens-bi/",
-      stack: ["SQL", "Modelagem de Dados", "Power BI", "Business Analytics"],
+      stack: ["SQL", "Data Modeling", "Power BI", "Business Analytics"],
+      track: "analytics-engineer",
     },
     {
       title: "DelayImpact",
+      impact: "Diagnóstico do impacto de atrasos logísticos na satisfação do cliente em e-commerce.",
       description:
-        "Diagnóstico analítico do impacto do atraso logístico na satisfação do cliente em e-commerce.",
+        "Análise exploratória e estatística aplicada para investigar como atrasos logísticos afetam a satisfação do cliente em e-commerce, identificando pontos críticos de deterioração da experiência e padrões regionais de sensibilidade ao atraso.",
       image: "/assets/images/cases/delayimpact.png",
       href: "/cases/delayimpact/",
-      stack: ["Python", "SQL", "EDA", "Análise Estatística", "Comunicação de Dados", "Visualização de Dados"],
+      stack: ["Python", "SQL", "EDA", "Estatística Aplicada ", "Customer Analytics", "Visualização de Dados "],
+      track: "analytics-engineer",
     },
     {
       title: "FraudWatch",
+      impact: "Risk scoring e políticas de decisão para detecção de fraude.",
       description:
-        "Sistema de risk scoring e decisão baseado em Machine Learning, com foco em governança, avaliação temporal e suporte estruturado à decisão.",
+        "Modelo de risk scoring aplicado à detecção de fraude, com split temporal, governança analítica e definição de políticas de decisão para suporte estruturado à operação.",
       image: "/assets/images/cases/fraudwatch.png",
       href: "/cases/fraudwatch/",
-      stack: ["Python", "Applied Machine Learning", "LightGBM", "SHAP", "Decision Modeling"]
+      stack: ["Python", "Machine Learning", "LightGBM", "SHAP", "Risk Scoring"],
+      track: "data-science",
     },
     {
       title: "CampaignSense",
+      impact: "Priorização de clientes para campanhas baseada em propensão de resposta e retorno financeiro.",
       description:
-        "Solução de CRM Analytics para otimização de campanhas de marketing, focada em priorização de clientes e maximização de retorno financeiro.",
+        "Solução de CRM Analytics que estima a propensão de resposta de clientes e transforma scores analíticos em regras de priorização baseadas em retorno financeiro esperado.",
       image: "/assets/images/cases/campaignsense.png",
       href: "/cases/campaignsense/",
-      stack: ["Python", "CRM Analytics", "Profit Targeting", "Applied Machine Learning", "Decision Modeling", ]
-    },    
-    {
-      title: "DocLens",
-      description:
-        "Chatbot RAG baseado em documentos, com controle de escopo, rastreabilidade e mitigação de riscos.",
-      image: "/assets/images/cases/doclens.png",
-      href: "/cases/doclens/",
-      stack: ["Python", "RAG", "Streamlit", "LLMs via API", "Responsible AI", "Governança de Informação"],
+      stack: ["Python", "Machine Learning", "CRM Analytics", "Customer Segmentation", "Decision Strategy"],
+      track: "data-science",
     },
-    {
-      title: "LakeFlow",
-      description:
-        "Pipeline de dados para ingestão, organização e disponibilização de dados externos, com foco em rastreabilidade, qualidade e reutilização.",
-      image: "/assets/images/cases/lakeflow.png",
-      href: "/cases/lakeflow/",
-      stack: ["Python","SQL", "Apache Spark", "Apache Airflow", "Data Engineering"],
-    },
-        
-      ],
+{
+  title: "DocLens",
+  impact: "Chatbot RAG com guardrails e auditoria adversarial para controle seguro de sistemas baseados em LLM.",
+  description:
+    "Sistema baseado em RAG com auditoria adversarial e guardrails ativos para controle de escopo, rastreabilidade de respostas e mitigação de riscos em consultas sobre documentos.",
+  image: "/assets/images/cases/doclens.png",
+  href: "/cases/doclens/",
+  stack: ["Python", "RAG", "LLMs", "AI Guardrails", "Adversarial Testing"],
+  track: "ai-systems",
+}
+
+  ],
 };
 

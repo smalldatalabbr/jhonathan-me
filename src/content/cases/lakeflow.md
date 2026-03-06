@@ -1,9 +1,9 @@
 ---
 slug: "lakeflow"
 title: "LakeFlow"
-description: "Pipeline de dados para ingestão, organização e disponibilização de dados externos, com foco em rastreabilidade, qualidade e reutilização."
+description: "Arquitetura de pipeline analítico com camadas Bronze/Silver/Gold para ingestão e organização de dados externos"
 heroImage: "/assets/images/cases/lakeflow.png"
-stack: ["Python", "Apache Spark", "SQL", "Apache Airflow", "Data Engineering"]
+stack: ["Python", "PySpark", "Apache Airflow", "Data Pipelines"]
 
 context: |
   Organizações consomem cada vez mais dados externos para apoiar análises, decisões operacionais e monitoramento de cenários. Esses dados geralmente vêm de APIs públicas, serviços de terceiros ou fontes abertas, em formatos brutos, heterogêneos e com pouca padronização.
@@ -11,7 +11,7 @@ context: |
 
 challenge: |
   Na prática, muitos fluxos de ingestão de dados externos são implementados de forma pontual, sem separação clara de etapas, controle de qualidade ou rastreabilidade das execuções. Isso dificulta responder perguntas simples, como: de onde veio esse dado, quando foi coletado, quais transformações foram aplicadas e se ele está apto para uso analítico.
-  O desafio desta POC foi construir um pipeline que tratasse dados externos de forma estruturada, com camadas bem definidas, execução previsível e dados prontos para consumo, sem depender de soluções complexas ou específicas de negócio.
+  O desafio desta prova de conceito (PoC) foi construir um pipeline que tratasse dados externos de forma estruturada, com camadas bem definidas, execução previsível e dados prontos para consumo, sem depender de soluções complexas ou específicas de negócio.
 
 steps:
   - "Definição de uma fonte externa de dados como exemplo prático, utilizando informações meteorológicas públicas."
