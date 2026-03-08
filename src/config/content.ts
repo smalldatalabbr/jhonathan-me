@@ -13,7 +13,7 @@ export const siteConfig = {
 export const homeContent = {
   title: "Olá, sou Jhonathan Domingues.",
    description:`Trabalho com dados, sistemas analíticos e modelos de machine learning aplicados a problemas reais de negócio.\n
-Aqui você encontra provas de conceito (PoCs) e sistemas analíticos desenvolvidos no <strong>Small Data Lab</strong>. Os projetos exploram diferentes camadas do trabalho com dados, desde engenharia de pipelines e modelagem preditiva até aplicações de IA baseadas em documentos.`,
+Aqui você encontra os projetos desenvolvidos no <strong>Small Data Lab</strong>, provas de conceito (PoCs) e sistemas analíticos que exploram diferentes camadas do trabalho com dados, desde engenharia de pipelines e modelagem preditiva até aplicações de IA baseadas em documentos e sistemas baseados em recuperação de informação.`,
  
   buttons: {
     cases: {
@@ -21,7 +21,7 @@ Aqui você encontra provas de conceito (PoCs) e sistemas analíticos desenvolvid
       href: "/cases/",
     },
     about: {
-      text: "Sobre o autor",
+      text: "Sobre mim",
       href: "/sobre/",
     },
   },
@@ -37,10 +37,11 @@ export const aboutContent = {
     description: "Trajetória, experiência e competências em Data Science, Analytics e Machine Learning.",
   },
   title: "Quem sou eu",
-description:`Sou Jhonathan Domingues. Trabalho com dados, sistemas analíticos e machine learning aplicados a problemas reais de negócio.\n
-Minha atuação combina análise exploratória, estatística aplicada e modelagem preditiva com foco em clareza analítica, rastreabilidade e suporte à tomada de decisão.\n
-Antes de migrar para a área de dados, construí uma trajetória de mais de 15 anos em engenharia industrial, atuando em ambientes operacionais complexos com análise técnica, automação de processos e otimização de operações. Essa experiência consolidou uma base analítica sólida e influenciou diretamente minha forma atual de estruturar problemas, organizar dados e transformar análise em decisão.\n
-    Atualmente, concentro minha experimentação técnica no Small Data Lab, um laboratório independente. Neste ambiente, desenvolvo provas de conceito (PoCs) de ponta a ponta: traduzo dores de negócio em arquiteturas analíticas, estruturo os dados e construo os modelos que sustentam a decisão final.`,
+  description:`Sou <strong>Jhonathan Domingues</strong>. Trabalho com dados, sistemas analíticos e machine learning aplicados a problemas reais de negócio.\n
+  Minha forma de trabalhar combina análise exploratória, estatística aplicada e modelagem preditiva para entender problemas com clareza e transformar dados em decisões mais bem fundamentadas.\n
+  Antes de migrar para a área de dados, construí uma trajetória de mais de <strong>15 anos em engenharia industrial</strong>, atuando em ambientes operacionais complexos com análise técnica, automação de processos e otimização de operações. Essa experiência consolidou uma base analítica forte e influenciou diretamente a forma como hoje estruturo problemas, organizo dados e interpreto resultados.\n
+  Hoje concentro minha experimentação técnica no <strong>Small Data Lab</strong>, um laboratório independente onde desenvolvo <strong>provas de conceito (PoCs)</strong> em ciência de dados. Nesse ambiente exploro problemas reais de negócio de ponta a ponta: traduzo a pergunta inicial em arquitetura analítica, estruturo os dados e desenvolvo os modelos que sustentam a análise final.\n
+  O Small Data Lab funciona como um espaço de experimentação aplicada, um lugar para testar ideias, construir sistemas analíticos e investigar como dados, modelos e arquitetura podem apoiar decisões melhores em contextos reais.`,
   skills: [
     "Python",
     "SQL",
@@ -70,9 +71,9 @@ Antes de migrar para a área de dados, construí uma trajetória de mais de 15 a
         period: "06/2025 – atual",
         position: "Cientista de Dados",
         company: "Small Data Lab",
-        description: `Atuação em laboratório técnico independente voltado à experimentação aplicada em dados e machine learning.\n
-Desenvolvo provas de conceito (PoCs) end-to-end que resolvem problemas reais de negócio. O escopo do meu trabalho abrange desde a curadoria e organização de dados em camadas analíticas até a modelagem preditiva e a comunicação dos resultados.\n
-Cada projeto é desenhado para simular o rigor de um ambiente corporativo, com foco absoluto em clareza analítica, rastreabilidade técnica e suporte estratégico à tomada de decisão.`,
+        description: `Atuação em um laboratório técnico independente dedicado à experimentação aplicada em dados e machine learning.\n
+Nesse ambiente desenvolvo provas de conceito (PoCs) end-to-end voltadas à resolução de problemas reais de negócio. O trabalho envolve desde a organização e estruturação dos dados em camadas analíticas até a construção de modelos preditivos e a comunicação dos resultados.\n
+Cada projeto é concebido para simular o contexto de um ambiente corporativo, priorizando clareza analítica, rastreabilidade técnica e apoio consistente à tomada de decisão.`,
       },
     ],
   },
@@ -135,9 +136,9 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
   projects: [
     {
       title: "LakeFlow",
-      impact: "Arquitetura de pipeline analítico com camadas Bronze/Silver/Gold para ingestão e organização de dados externos.",
+      impact: "Pipeline analítico em arquitetura Lakehouse com camadas Bronze/Silver/Gold para ingestão de dados externos.",
       description:
-        "Pipeline analítico desenvolvido em Python e PySpark para ingestão recorrente, transformação e organização de dados em camadas analíticas, com orquestração via Airflow e foco em rastreabilidade, qualidade e reutilização.",
+        "Pipeline analítico desenvolvido em Python e PySpark para ingestão recorrente, transformação e organização de dados em camadas analíticas, com orquestração via Airflow e foco em rastreabilidade, qualidade e reutilização dos dados.",
       image: "/assets/images/cases/lakeflow.png",
       href: "/cases/lakeflow/",
     stack: ["Python", "PySpark", "Apache Airflow", "Data Pipelines"],
@@ -145,9 +146,9 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
     },
     {
       title: "RetailLens BI",
-      impact: "Camada analítica BI-ready para diagnóstico operacional e tomada de decisão em e-commerce.",
+      impact: "Camada analítica BI-ready para diagnóstico operacional em e-commerce.",
       description:
-        "Produto analítico para e-commerce baseado em modelagem de dados em SQL e dashboards executivos em Power BI, com métricas consolidadas em uma camada analítica BI-ready voltada à consistência de indicadores e suporte à tomada de decisão.",
+        "Produto analítico para e-commerce baseado em modelagem de dados em SQL e dashboards executivos em Power BI, consolidando métricas operacionais e financeiras em uma camada analítica BI-ready voltada à consistência de indicadores.",
       image: "/assets/images/cases/retaillens-bi.png",
       href: "/cases/retaillens-bi/",
       stack: ["SQL", "Data Modeling", "Power BI", "Business Analytics"],
@@ -157,7 +158,7 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
       title: "DelayImpact",
       impact: "Diagnóstico do impacto de atrasos logísticos na satisfação do cliente em e-commerce.",
       description:
-        "Análise exploratória e estatística aplicada para investigar como atrasos logísticos afetam a satisfação do cliente em e-commerce, identificando pontos críticos de deterioração da experiência e padrões regionais de sensibilidade ao atraso.",
+        "Análise exploratória e estatística aplicada para investigar como atrasos logísticos afetam a satisfação do cliente, identificando pontos críticos de deterioração da experiência e padrões regionais de sensibilidade ao atraso.",
       image: "/assets/images/cases/delayimpact.png",
       href: "/cases/delayimpact/",
       stack: ["Python", "SQL", "EDA", "Estatística Aplicada ", "Customer Analytics", "Visualização de Dados "],
@@ -165,9 +166,9 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
     },
     {
       title: "FraudWatch",
-      impact: "Risk scoring e políticas de decisão para detecção de fraude.",
+      impact: "Risk scoring e priorização de decisões para detecção de fraude.",
       description:
-        "Modelo de risk scoring aplicado à detecção de fraude, com split temporal, governança analítica e definição de políticas de decisão para suporte estruturado à operação.",
+        "Sistema de risk scoring aplicado à detecção de fraude, utilizando split temporal, modelos de machine learning interpretáveis e políticas de decisão para suporte estruturado à operação.",
       image: "/assets/images/cases/fraudwatch.png",
       href: "/cases/fraudwatch/",
       stack: ["Python", "Machine Learning", "LightGBM", "SHAP", "Risk Scoring"],
@@ -175,9 +176,9 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
     },
     {
       title: "CampaignSense",
-      impact: "Priorização de clientes para campanhas baseada em propensão de resposta e retorno financeiro.",
+      impact: "Priorização de clientes para campanhas baseada em propensão de resposta e ROI esperado.",
       description:
-        "Solução de CRM Analytics que estima a propensão de resposta de clientes e transforma scores analíticos em regras de priorização baseadas em retorno financeiro esperado.",
+        "Solução de CRM Analytics que estima a propensão de resposta de clientes e converte scores analíticos em regras de priorização para campanhas orientadas a ROI.",
       image: "/assets/images/cases/campaignsense.png",
       href: "/cases/campaignsense/",
       stack: ["Python", "Machine Learning", "CRM Analytics", "Customer Segmentation", "Decision Strategy"],
@@ -185,9 +186,9 @@ Se preferir, você pode começar pela trilha que mais se aproxima do seu interes
     },
 {
   title: "DocLens",
-  impact: "Chatbot RAG com guardrails e auditoria adversarial para controle seguro de sistemas baseados em LLM.",
+  impact: "Chatbot RAG com guardrails e auditoria adversarial para governança de sistemas baseados em LLM.",
   description:
-    "Sistema baseado em RAG com auditoria adversarial e guardrails ativos para controle de escopo, rastreabilidade de respostas e mitigação de riscos em consultas sobre documentos.",
+    "Sistema baseado em RAG para consulta de documentos, incorporando guardrails ativos e auditoria adversarial para garantir controle de escopo, rastreabilidade das respostas e mitigação de riscos em aplicações com LLM.",
   image: "/assets/images/cases/doclens.png",
   href: "/cases/doclens/",
   stack: ["Python", "RAG", "LLMs", "AI Guardrails", "Adversarial Testing"],
